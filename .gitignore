@@ -1,0 +1,23 @@
+# build outputs
+out/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.lib
+source/dll/fsr/out/
+__pycache__/
+*.pyc
+
+# runtime files
+*.log
+fpc_*.txt
+*.png
+
+# never commit game files or decompiled game code
+*.package
+*.rdc
+TS4_x64*.exe
+decompiled/
+python_original/
